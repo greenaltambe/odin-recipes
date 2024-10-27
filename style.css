@@ -1,0 +1,39 @@
+* {
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.ingredients-list li {
+    color: blue;
+}
+
+.recipe-list li, li a {
+    color: black;
+}
+
+.steps-list li {
+    color: tomato;
+    font-size: 18px;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.description {
+    background-color: aqua;
+}
+
+.home-url {
+    font-size: 24px;
+    color: black;
+}
