@@ -2,36 +2,72 @@
     font-family: Verdana, Helvetica, sans-serif;
 }
 
+.outer-container {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.title-container {
+    /* border: 1px solid black; */
+    margin: 8px auto;
+    width: 90%;
+    text-align: center;
+}
+
 .title {
     font-weight: bold;
     font-size: 38px;
 }
 
-.ingredients-list li {
-    color: blue;
+.sub-heading {
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+}
+
+.recipe-list {
+    display: block;
+    width: 90%;
+}
+
+.recipe-list li {
+    list-style: none;
+    display: inline;
+    padding: 8px 16px;
+    margin: 8px;
+    background-color: rgba(255, 255, 0, 0.389);
 }
 
 .recipe-list li, li a {
+    /* text-decoration: none; */
     color: black;
-}
-
-.steps-list li {
-    color: tomato;
-    font-size: 18px;
 }
 
 .image {
     width: 300px;
     height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.349);
 }
+
+.ingredients-list li {
+    color: black;
+    margin: 8px;
+}
+
+.steps-list li {
+    background-color: rgba(255, 255, 0, 0.389);
+    padding: 8px;
+    margin-bottom: 8px;
+    color: black;
+}
+
 
 h2 {
     font-weight: bold;
 }
 
-.description {
-    background-color: aqua;
-}
 
 .home-url {
     font-size: 24px;
