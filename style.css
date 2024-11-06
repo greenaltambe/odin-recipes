@@ -2,6 +2,11 @@
     font-family: Verdana, Helvetica, sans-serif;
 }
 
+body {
+    background-color: rgba(212, 212, 141, 0.389);
+}
+
+
 .outer-container {
     width: 90%;
     box-sizing: border-box;
@@ -9,12 +14,21 @@
     padding: 0;
 }
 
+.sub-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 8px;
+}
 
 .title-container {
-    /* border: 1px solid black; */
     margin: 8px auto;
-    width: 90%;
     text-align: center;
+}
+
+.title-container img {
+    margin-bottom: 24px;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
 }
 
 .title {
@@ -22,10 +36,18 @@
     font-size: 38px;
 }
 
-.sub-heading {
-    border-bottom: 1px solid lightgray;
-    padding: 8px;
+.basic-container {
+    margin: 10px auto;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-color: rgba(255, 255, 0, 0.389);
 }
+
+.basic-container p {
+    padding: 0 18px;
+}
+
 
 .recipe-list {
     display: block;
@@ -38,17 +60,11 @@
     padding: 8px 16px;
     margin: 8px;
     background-color: rgba(255, 255, 0, 0.389);
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .recipe-list li, li a {
-    /* text-decoration: none; */
     color: black;
-}
-
-.image {
-    width: 300px;
-    height: auto;
-    border: 2px solid rgba(0, 0, 0, 0.349);
 }
 
 .ingredients-list li {
@@ -57,7 +73,6 @@
 }
 
 .steps-list li {
-    background-color: rgba(255, 255, 0, 0.389);
     padding: 8px;
     margin-bottom: 8px;
     color: black;
